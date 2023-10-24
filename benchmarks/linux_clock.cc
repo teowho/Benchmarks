@@ -1,5 +1,6 @@
-#include "common/common.h"
 #include "time.h"
+
+#include "common/common.h"
 
 TBENCHMARK(linux_clock_realtime) {
   timespec ts;
