@@ -34,3 +34,14 @@ For situations where an integer is incremented and modulo a certain number multi
 |-|-|
 | Modulo | 4.16 ns |
 | Minus | 1.61 ns |
+
+### Vector resize
+
+| Type | Time |
+|-|-|
+| 10 items - no realloc | 255 ns |
+| 1000 items - no realloc | 258 ns |
+| 100000 items - no realloc | |
+| 10 items - realloc | 387 ns |
+| 1000 items - realloc | 507 ns |
+| 100000 items - realloc | |

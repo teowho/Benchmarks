@@ -3,7 +3,9 @@
 
 #include "common/common.h"
 
+#ifndef THREAD_COUNT
 #define THREAD_COUNT 8
+#endif
 
 namespace {
 std::atomic_int atomic = 0;
